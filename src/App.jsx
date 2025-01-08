@@ -1,21 +1,17 @@
-
-import './App.css'
+import ClockHeading from "./components/ClockHeading";
+import ClockSlogan from "./components/ClockSlogan";
+import CurrentTime from "./components/CurrentTime";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "./App.css";
 
 function App() {
-
-
   return (
-    <>
-      <h1>Docker DEMO</h1>
-      <div className="card">
-
-        <p>
-          This is demo project for  docker.
-        </p>
-      </div>
-
-    </>
-  )
+    <center>
+      <ClockHeading></ClockHeading>
+      <ClockSlogan></ClockSlogan>
+      <CurrentTime></CurrentTime>
+    </center>
+  );
 }
 
-export default App
+export default App;
