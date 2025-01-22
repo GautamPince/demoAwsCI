@@ -1,3 +1,4 @@
+# author
 #!/bin/bash
 set -e
 
